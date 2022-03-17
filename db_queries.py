@@ -13,7 +13,6 @@ def connect_to_mysql_db():
     return connection
 
 
-# TODO Замінити чистий SQL на sql alchemy
 def add_value_to_db(user_info: str, name_of_table: str):
     with connect_to_mysql_db() as connection:
         cursor = connection.cursor()
