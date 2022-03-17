@@ -1,0 +1,7 @@
+# Database connector
+mysql-connector-python=8.0.28
+# Parser
+requests=2.27.0
+beautifulsoup4=4.10.0
+# Bot API 
+pyTelegramBotAPI=4.2.2
