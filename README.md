@@ -2,6 +2,7 @@
 Telegram bot is created for your own use, helps you choose content, records the content you specify and adds a random sample when you want to get it in a convenient form as a Telegram bot, with convenient commands and buttons.
 
 Based on - Python 3.10.1
+
 Use - MySQL - 8.0.28
 
 ## Installation:
