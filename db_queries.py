@@ -30,7 +30,7 @@ def read_films_from_db(content: str):
         cursor.execute(select_movies_query)
         result = cursor.fetchall()
         if not result:
-            random_value = 'Список пустий'
+            random_value = 'The list is empty'
             return random_value
         random_value = random.choice(result)
         value_for_deleting = random_value[0]
